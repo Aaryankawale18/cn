@@ -1,0 +1,17 @@
+
+lab-03-17@lab-03-17-OptiPlex-3280-AIO:~$ vim udp_server_1290.c
+
+Steps : Press i -> Paste code -> Press esc -> Type :wq -> Press enter  
+
+
+lab-03-17@lab-03-17-OptiPlex-3280-AIO:~$ gcc udp_server_1290.c -o udp_server
+lab-03-17@lab-03-17-OptiPlex-3280-AIO:~$ ./udp_server
+
+Output :
+UDP Echo Server listening on port 10290...
+Received from client: Hello UDP Server
+Sent back to client: Hello UDP Server
+
+
+Note : This is the client code to run this we also need to run server code fron exp2 , fisrt run exp2 code in terminal 1 and then run 
+       the exp3 code in other terminal 2 without closing terminal 1  
