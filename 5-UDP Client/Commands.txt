@@ -1,0 +1,13 @@
+lab-03-17@lab-03-17-OptiPlex-3280-AIO:~$ vim udp_client_1290.c
+
+Steps : Press i -> Paste code -> Press esc -> Type :wq -> Press enter  
+
+
+lab-03-17@lab-03-17-OptiPlex-3280-AIO:~$ gcc udp_client_1290.c -o udp_client
+lab-03-17@lab-03-17-OptiPlex-3280-AIO:~$ ./udp_client 127.0.0.1
+
+Enter message to send: Hello UDP Server
+Echo from server: Hello UDP Server
+
+Note : This is the client code to run this we also need to run server code fron exp4 , fisrt run exp4 code in terminal 1 and then run 
+       the exp5 code in other terminal 2 without closing terminal 1  
