@@ -1,0 +1,14 @@
+Command 1:   lab-03-17@lab-03-17-OptiPlex-3280-AIO:~$ vim server_1290.c
+
+This opens the file : Press i  ->  Paste Code -> Press Esc -> Type :wq -> Press Enter 
+
+Command 2 :   lab-03-17@lab-03-17-OptiPlex-3280-AIO:~$ gcc server_1290.c -o server
+Command 3 :   lab-03-17@lab-03-17-OptiPlex-3280-AIO:~$ ./server
+
+Output : 
+TCP Echo Server listening on port 10290...
+Received: Hello, This is the request sent by the client
+Received: Hello Server
+
+Note : This is the server code to run this we also need to run client code fron exp3 , fisrt run this code in terminal and then run 
+       the client code in other terminal without closing terminal 1  
