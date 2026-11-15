@@ -1,0 +1,25 @@
+Command 1 : lab-03-17@lab-03-17-OptiPlex-3280-AIO:~$ vim token_bucket_1290.c
+
+Steps : Press i -> Paste code -> Press esc -> Type :wq -> Press enter  
+
+
+Command 2 : lab-03-17@lab-03-17-OptiPlex-3280-AIO:~$ gcc token_bucket_1290.c -o token_bucket
+Command 3 : lab-03-17@lab-03-17-OptiPlex-3280-AIO:~$ ./token_bucket
+
+Output :
+
+Enter maximum capacity of token bucket: 10
+Enter initial tokens in bucket: 5
+Enter token generation rate per interval: 2
+Enter number of incoming packets: 3
+
+Packet 1 requires 4 tokens.
+Tokens available: 5. Packet transmitted successfully! Remaining tokens: 1
+
+Packet 2 requires 6 tokens.
+Not enough tokens! Adding generated tokens...
+Current tokens: 3. Still insufficient tokens. Packet delayed or dropped.
+
+Packet 3 requires 2 tokens.
+Adding generated tokens...
+Current tokens: 5. Tokens available: 5. Packet transmitted successfully! Remaining tokens: 3
