@@ -8,3 +8,7 @@ lab-03-17@lab-03-17-OptiPlex-3280-AIO:~$ ./client 127.0.0.1
 
 Connected to server. Enter message: Hello Server
 Echo from server: Hello Server
+
+
+Note : This is the client code to run this we also need to run server code fron exp2 , fisrt run exp2 code in terminal 1 and then run 
+       the exp3 code in other terminal 2 without closing terminal 1  
