@@ -13,5 +13,5 @@ Received from client: Hello UDP Server
 Sent back to client: Hello UDP Server
 
 
-Note : This is the client code to run this we also need to run server code fron exp2 , fisrt run exp2 code in terminal 1 and then run 
-       the exp3 code in other terminal 2 without closing terminal 1  
+Note : This is the server code to run this we also need to run client code fron exp5 , fisrt run exp4 code in terminal 1 and then run 
+       the exp5 code in other terminal 2 without closing terminal 1  
